@@ -9,9 +9,13 @@ public class ClientExample {
 		
 		Socket socket = null;
 		try {
+			//소켓 생성
 			socket = new Socket();
+			
+			//연결요청
 			System.out.println("[연결 요청]");
 			socket.connect(new InetSocketAddress("localhost",5001));
+			
 			System.out.println("[연결 성공]");
 		}catch(Exception e) {
 		}
