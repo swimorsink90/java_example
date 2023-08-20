@@ -7,10 +7,10 @@ public class HashSetExample2 {
 	public static void main(String [] args) {
 		Set<Member> set = new HashSet<Member>();
 		
-		set.add(new Member("Å×½ºÆ®1", 30));
-		set.add(new Member("Å×½ºÆ®1", 30));
+		set.add(new Member("í…ŒìŠ¤íŠ¸1", 30));
+		set.add(new Member("í…ŒìŠ¤íŠ¸1", 30));
 		
-		System.out.println("ÃÑ °´Ã¼ ¼ö : "+set.size());
+		System.out.println("ì´ ê°ì²´ ìˆ˜ : "+set.size());
 		
 		
 	}
