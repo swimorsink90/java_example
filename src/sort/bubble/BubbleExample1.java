@@ -4,7 +4,7 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
 
-public class bubbleExample {
+public class BubbleExample1 {
 	static Person1 [] members = new Person1 [100];
 	static int n = 0;
 	
