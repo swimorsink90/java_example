@@ -40,10 +40,6 @@ public class ShapeApplication {
 //	}
 	
 	
-	/*
-	 * 시간을 들여서라도 이 부분 코드를 이해해야함.
-	 * 
-	 */
 	private void bubbleSort(MyComparable [] data, int size) {
 		for(int i=size-1; i>0; i--) {
 			for (int j=0; j<i; j++) {
@@ -70,9 +66,6 @@ public class ShapeApplication {
 		String type = kb.next();
 		switch (type) {
 		case "R": // Rectangle
-			//int w = kb.nextInt();
-			//int h = kb.nextInt();
-			//Rectangle r = new Rectangle(w, h);
 			addShape(new Rectangle(kb.nextInt(), kb.nextInt()));
 			break;
 		case "C": //Circle
@@ -80,8 +73,6 @@ public class ShapeApplication {
 			break;
 		case "T": //Triangle
 		}
-		
-		
 	}
 
 	private void addShape(Shape shape) {

@@ -8,10 +8,9 @@ public abstract class Shape implements MyComparable{
 		shapeName = name;
 	}
 	
-	public abstract double computeArea(); //¸éÀû °è»ê
-	public abstract double computePerimeter(); //µÑ·¹ °è»ê
+	public abstract double computeArea();		//ë„í˜• ë©´ì  êµ¬í•˜ê¸°
+	public abstract double computePerimeter();	//ë„í˜• ë‘˜ë ˆêµ¬í•˜ê¸°
 	
-	//ÀÚ±âÀÚ½Å°ú ¸Å°³º¯¼ö·Î µé¾î¿Â °ªÀÇ Å©±â¸¦ ºñ±³
 	public int compareTo(Object other) {
 		double myArea = computeArea();
 		double yourArea = ((Shape) other).computeArea();
